@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cce7eb12ae99da3fbc835ab877e6830b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cce7eb12ae99da3fbc835ab877e6830b" ></div>
+        
+</body>
+<script>    
+    
+            var map_cce7eb12ae99da3fbc835ab877e6830b = L.map(
+                "map_cce7eb12ae99da3fbc835ab877e6830b",
+                {
+                    center: [39.9066355, 116.3913935],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ff5790bd529464e6450aa4e9f0b181f6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+            var marker_9f405b447a2687584bec36c7ef595b58 = L.marker(
+                [39.86624305861193, 116.37020307948319],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+            var icon_a912d350ca7d3241813a0d81ceedfc09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f405b447a2687584bec36c7ef595b58.setIcon(icon_a912d350ca7d3241813a0d81ceedfc09);
+        
+    
+        var popup_29024b17d47dba6a02dd883b85c5f0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a43a049a62ec066495bb885ae27a90 = $(`<div id="html_48a43a049a62ec066495bb885ae27a90" style="width: 100.0%; height: 100.0%;">北京南站</div>`)[0];
+                popup_29024b17d47dba6a02dd883b85c5f0a1.setContent(html_48a43a049a62ec066495bb885ae27a90);
+            
+        
+
+        marker_9f405b447a2687584bec36c7ef595b58.bindPopup(popup_29024b17d47dba6a02dd883b85c5f0a1)
+        ;
+
+        
+    
+    
+            var marker_b42d9766f7a6bdef079e177e10eeadb6 = L.marker(
+                [39.8807654, 116.3507334],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+        var popup_282dd00883e4c1e33cc7ed5fcd861920 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_913b3ce98b6f7dedf7ed2c0012b97693 = $(`<div id="html_913b3ce98b6f7dedf7ed2c0012b97693" style="width: 100.0%; height: 100.0%;">崇效寺 (到达: xxxx.xx.xx 08:12, 离开: xxxx.xx.xx 10:12)</div>`)[0];
+                popup_282dd00883e4c1e33cc7ed5fcd861920.setContent(html_913b3ce98b6f7dedf7ed2c0012b97693);
+            
+        
+
+        marker_b42d9766f7a6bdef079e177e10eeadb6.bindPopup(popup_282dd00883e4c1e33cc7ed5fcd861920)
+        ;
+
+        
+    
+    
+            var marker_237f570ee3a6178178242e807b0a4aaa = L.marker(
+                [39.8848178, 116.3582812],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+        var popup_1bdce1e3fd22848fe79433c68bb2d1b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_850a5c341ad67cba652c352615b99b2b = $(`<div id="html_850a5c341ad67cba652c352615b99b2b" style="width: 100.0%; height: 100.0%;">清真女寺 (到达: xxxx.xx.xx 10:18, 离开: xxxx.xx.xx 12:18)</div>`)[0];
+                popup_1bdce1e3fd22848fe79433c68bb2d1b5.setContent(html_850a5c341ad67cba652c352615b99b2b);
+            
+        
+
+        marker_237f570ee3a6178178242e807b0a4aaa.bindPopup(popup_1bdce1e3fd22848fe79433c68bb2d1b5)
+        ;
+
+        
+    
+    
+            var marker_934fa9b387ebf6512caf8fc547372ef0 = L.marker(
+                [39.888409, 116.35204],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+        var popup_3d530fc58927c90a60ec954451e2d398 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1b54721ffd1832c0973f7ce865f6d68 = $(`<div id="html_b1b54721ffd1832c0973f7ce865f6d68" style="width: 100.0%; height: 100.0%;">广宁公园 (到达: xxxx.xx.xx 12:23, 离开: xxxx.xx.xx 14:23)</div>`)[0];
+                popup_3d530fc58927c90a60ec954451e2d398.setContent(html_b1b54721ffd1832c0973f7ce865f6d68);
+            
+        
+
+        marker_934fa9b387ebf6512caf8fc547372ef0.bindPopup(popup_3d530fc58927c90a60ec954451e2d398)
+        ;
+
+        
+    
+    
+            var marker_95ec69fb541043093d6572b33bb9b3c1 = L.marker(
+                [39.8867646, 116.3485908],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+        var popup_9a3b7b6c2b7e30fa88b58e4d53630a11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5bdac649e7e520974a406d539cb953a = $(`<div id="html_c5bdac649e7e520974a406d539cb953a" style="width: 100.0%; height: 100.0%;">宝应寺 (到达: xxxx.xx.xx 14:28, 离开: xxxx.xx.xx 16:28)</div>`)[0];
+                popup_9a3b7b6c2b7e30fa88b58e4d53630a11.setContent(html_c5bdac649e7e520974a406d539cb953a);
+            
+        
+
+        marker_95ec69fb541043093d6572b33bb9b3c1.bindPopup(popup_9a3b7b6c2b7e30fa88b58e4d53630a11)
+        ;
+
+        
+    
+    
+            var marker_8d56f50a1d743380cb23db6524ddb33b = L.marker(
+                [39.8796444, 116.3430441],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+        var popup_4f793e803062d52d0f959a7497139550 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c2fc731468887eef8340ae9bbc4101a = $(`<div id="html_2c2fc731468887eef8340ae9bbc4101a" style="width: 100.0%; height: 100.0%;">金宫殿故址 (到达: xxxx.xx.xx 16:32, 离开: xxxx.xx.xx 18:32)</div>`)[0];
+                popup_4f793e803062d52d0f959a7497139550.setContent(html_2c2fc731468887eef8340ae9bbc4101a);
+            
+        
+
+        marker_8d56f50a1d743380cb23db6524ddb33b.bindPopup(popup_4f793e803062d52d0f959a7497139550)
+        ;
+
+        
+    
+    
+            var marker_d2fd92ae1c81166f25b336e4e983bb4a = L.marker(
+                [39.89494313059209, 116.31510705044981],
+                {}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+    
+            var icon_d7ea4276e249dbed78cf12594c7612d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2fd92ae1c81166f25b336e4e983bb4a.setIcon(icon_d7ea4276e249dbed78cf12594c7612d6);
+        
+    
+        var popup_fbaaaa5b966e825ad0a4c5ec837329df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9193eee37c7f69886cd597584c74d979 = $(`<div id="html_9193eee37c7f69886cd597584c74d979" style="width: 100.0%; height: 100.0%;">北京西站</div>`)[0];
+                popup_fbaaaa5b966e825ad0a4c5ec837329df.setContent(html_9193eee37c7f69886cd597584c74d979);
+            
+        
+
+        marker_d2fd92ae1c81166f25b336e4e983bb4a.bindPopup(popup_fbaaaa5b966e825ad0a4c5ec837329df)
+        ;
+
+        
+    
+    
+            var poly_line_b609d1fba0f016746041864c0e4aebdb = L.polyline(
+                [[39.86624305861193, 116.37020307948319], [39.8807654, 116.3507334], [39.8848178, 116.3582812], [39.888409, 116.35204], [39.8867646, 116.3485908], [39.8796444, 116.3430441], [39.89494313059209, 116.31510705044981]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_cce7eb12ae99da3fbc835ab877e6830b);
+        
+</script>
