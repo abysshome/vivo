@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_131822ed978f85dc0620cf76134c8ec7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_131822ed978f85dc0620cf76134c8ec7" ></div>
+        
+</body>
+<script>    
+    
+            var map_131822ed978f85dc0620cf76134c8ec7 = L.map(
+                "map_131822ed978f85dc0620cf76134c8ec7",
+                {
+                    center: [39.9066355, 116.3913935],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c5bed32143c4f375b11e590ed880398 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+            var marker_b589827fa54d5ddd4006f28246ed55fb = L.marker(
+                [39.90277565497976, 116.40114474433395],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+            var icon_c499c1ebbf64147dc06540762ee0e335 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b589827fa54d5ddd4006f28246ed55fb.setIcon(icon_c499c1ebbf64147dc06540762ee0e335);
+        
+    
+        var popup_f30acee359221850c445d5e4a0242c01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14131c013644a1a7f0b54917ba2d9200 = $(`<div id="html_14131c013644a1a7f0b54917ba2d9200" style="width: 100.0%; height: 100.0%;">北京</div>`)[0];
+                popup_f30acee359221850c445d5e4a0242c01.setContent(html_14131c013644a1a7f0b54917ba2d9200);
+            
+        
+
+        marker_b589827fa54d5ddd4006f28246ed55fb.bindPopup(popup_f30acee359221850c445d5e4a0242c01)
+        ;
+
+        
+    
+    
+            var marker_e2be09548a48e3903577c05fe6e0d054 = L.marker(
+                [39.9023637, 116.391483],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+        var popup_7003cd0854de38b1ba8a42af8450b84b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89f9619b5a6f728610a756b1174b6c88 = $(`<div id="html_89f9619b5a6f728610a756b1174b6c88" style="width: 100.0%; height: 100.0%;">天安门广场 (到达: 2022年06月15日 08:08, 离开: 2022年06月15日 10:00)</div>`)[0];
+                popup_7003cd0854de38b1ba8a42af8450b84b.setContent(html_89f9619b5a6f728610a756b1174b6c88);
+            
+        
+
+        marker_e2be09548a48e3903577c05fe6e0d054.bindPopup(popup_7003cd0854de38b1ba8a42af8450b84b)
+        ;
+
+        
+    
+    
+            var marker_c6cac47329af425462d6f31798e6e73d = L.marker(
+                [39.9083711, 116.393292],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+        var popup_379883f13c54be93e93e0fa18225d7c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eee57a579e146bb3a85d8e1526cba9c2 = $(`<div id="html_eee57a579e146bb3a85d8e1526cba9c2" style="width: 100.0%; height: 100.0%;">故宫博物院 (到达: 2022年06月15日 10:04, 离开: 2022年06月15日 12:00)</div>`)[0];
+                popup_379883f13c54be93e93e0fa18225d7c1.setContent(html_eee57a579e146bb3a85d8e1526cba9c2);
+            
+        
+
+        marker_c6cac47329af425462d6f31798e6e73d.bindPopup(popup_379883f13c54be93e93e0fa18225d7c1)
+        ;
+
+        
+    
+    
+            var marker_e560e957220e857ebd3b6ef251f070bf = L.marker(
+                [39.9061492, 116.3887522],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+        var popup_0c8214a4441871433954a289cf4f99e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b84c0b5279bd276ceb49323b99d4a6e = $(`<div id="html_1b84c0b5279bd276ceb49323b99d4a6e" style="width: 100.0%; height: 100.0%;">长安街 (到达: 2022年06月15日 12:04, 离开: 2022年06月15日 14:00)</div>`)[0];
+                popup_0c8214a4441871433954a289cf4f99e2.setContent(html_1b84c0b5279bd276ceb49323b99d4a6e);
+            
+        
+
+        marker_e560e957220e857ebd3b6ef251f070bf.bindPopup(popup_0c8214a4441871433954a289cf4f99e2)
+        ;
+
+        
+    
+    
+            var marker_5a9ec5944a47d3a3c7b07e3ba2b50e64 = L.marker(
+                [39.9054005, 116.519841],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+        var popup_cb008b5c4976b30c669ba4305be3128a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f501d2b1a2f69020d2f11bf49dbb3e80 = $(`<div id="html_f501d2b1a2f69020d2f11bf49dbb3e80" style="width: 100.0%; height: 100.0%;">高碑店漕运历史文化游览区 (到达: 2022年06月15日 14:04, 离开: 2022年06月15日 16:00)</div>`)[0];
+                popup_cb008b5c4976b30c669ba4305be3128a.setContent(html_f501d2b1a2f69020d2f11bf49dbb3e80);
+            
+        
+
+        marker_5a9ec5944a47d3a3c7b07e3ba2b50e64.bindPopup(popup_cb008b5c4976b30c669ba4305be3128a)
+        ;
+
+        
+    
+    
+            var marker_b2e2d5303ac03471489b6fa42139bdf6 = L.marker(
+                [39.6046731, 116.7741516],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+        var popup_aa6a6d04ba4fd58d0f85cc4c68ecf626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb72089dc1727ce0a5e141b35a5fd21a = $(`<div id="html_eb72089dc1727ce0a5e141b35a5fd21a" style="width: 100.0%; height: 100.0%;">永乐凤河公园 (到达: 2022年06月15日 16:41, 离开: 2022年06月15日 18:00)</div>`)[0];
+                popup_aa6a6d04ba4fd58d0f85cc4c68ecf626.setContent(html_eb72089dc1727ce0a5e141b35a5fd21a);
+            
+        
+
+        marker_b2e2d5303ac03471489b6fa42139bdf6.bindPopup(popup_aa6a6d04ba4fd58d0f85cc4c68ecf626)
+        ;
+
+        
+    
+    
+            var marker_0d8a3020b2c7ef87db41732b630968c5 = L.marker(
+                [39.08431230999273, 117.19521192889685],
+                {}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+    
+            var icon_3901c4ba5a65247d5b7a7bc2b3caf5cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d8a3020b2c7ef87db41732b630968c5.setIcon(icon_3901c4ba5a65247d5b7a7bc2b3caf5cc);
+        
+    
+        var popup_b31431e28cca198179c8dfe15de3af8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09469d22f6af032f77ea94f1cb1ccc8b = $(`<div id="html_09469d22f6af032f77ea94f1cb1ccc8b" style="width: 100.0%; height: 100.0%;">天津</div>`)[0];
+                popup_b31431e28cca198179c8dfe15de3af8b.setContent(html_09469d22f6af032f77ea94f1cb1ccc8b);
+            
+        
+
+        marker_0d8a3020b2c7ef87db41732b630968c5.bindPopup(popup_b31431e28cca198179c8dfe15de3af8b)
+        ;
+
+        
+    
+    
+            var poly_line_1fc72b255f9afa9e272d4f2239620745 = L.polyline(
+                [[39.90277565497976, 116.40114474433395], [39.9023637, 116.391483], [39.9083711, 116.393292], [39.9061492, 116.3887522], [39.9054005, 116.519841], [39.6046731, 116.7741516], [39.08431230999273, 117.19521192889685]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_131822ed978f85dc0620cf76134c8ec7);
+        
+</script>
